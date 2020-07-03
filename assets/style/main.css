@@ -102,3 +102,18 @@ a {
           opacity: .5; }
       #card #cardFooter #shareOptionList li {
         margin-right: 1rem; }
+
+@media (max-width: 375px) {
+  #card {
+    flex-direction: column;
+    width: 375px;
+    height: 100%; }
+    #card #leftBox {
+      height: 35%;
+      width: 100%; }
+    #card #cardFooter #shareOptionList {
+      bottom: 13rem;
+      right: 0; }
+      #card #cardFooter #shareOptionList::before {
+        left: 76%;
+        top: 55px; } }
