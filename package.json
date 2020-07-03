@@ -1,0 +1,14 @@
+{
+  "name": "article-preview",
+  "version": "1.0.0",
+  "description": "Basically a little article preivew design",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w sass/ -o assets/style --recursive"
+  },
+  "author": "de_gentleman",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
